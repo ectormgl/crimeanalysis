@@ -1,0 +1,11 @@
+1) Scraping Earnings Data: Identify and compile a list of US companies reporting earnings on specific dates. For example, I need a list of companies reporting earnings on September 5th, 2024. The output may include over 60 companies per day.
+
+2) Creating a Weighted Selection Mechanism: Due to the large number of companies reporting on some days, I need a method to filter and rank these companies, narrowing it down to the top 20 US companies each day. This ranking should be based on financial metrics that indicate the potential for stock price appreciation post-earnings. For instance, you might use the following weights: 30% market capitalization, 25% EPS growth, 20% revenue growth, 15% earnings surprise, and 10% analyst ratings.
+
+The selected analyst should be prepared to justify the model’s outputs and, if necessary, refine the model up to three times based on feedback. Further refinements will be subject to additional payment.
+
+3) Deliverable Requirements:
+       i) A CSV file with the top 20 US companies reporting earnings each day from September 5th, 2024, to September 5th, 2025. The CSV should include three columns: Company Name, Stock Ticker, and Earnings Date.
+     ii)   Ensure accuracy by addressing gaps in date ranges (e.g., holidays with no earnings reports). If gaps are identified where data should exist, the deliverable will need to be corrected.
+
+4) Python Script Development: if possible-- a Python script that leverages public data sources/APIs to gather this earnings data myself moving forward. The script should allow me to adjust the weights and filtering criteria for selecting the top 20 companies, as well as modify the date ranges.
