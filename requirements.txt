@@ -3,3 +3,6 @@ numpy
 dash
 plotly
 unidecode
+ipykernel
+openpyxl
+fuzzywuzzy
